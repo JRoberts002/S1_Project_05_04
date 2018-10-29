@@ -1,0 +1,82 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 3
+   Case Problem 4
+
+   Park City Gazette Style Sheet
+   Author: Joseph Roberts
+   Date:   10.29.18
+
+   Filename:         pcg_paper.css
+   Supporting Files: 
+
+*/
+
+/* Instructed Styles */
+body {
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    min-width: 640px;
+    max-width: 960px;
+    background-color: white;
+}
+
+/* Ad-lib Styles */
+html {
+    background-color: rgb(138, 43, 226);
+}
+
+img {
+    width: 100%;
+}
+
+nav {
+    width: 100%;
+}
+
+nav.nav a {
+    display: block;
+    text-align: center;
+    width: 12.5%;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav.nav ul li {
+    display: block;
+    float: left;
+}
+
+nav div.row {
+    clear: both;
+}
+
+div.row::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+div[class^="column"] {
+    float: left;
+}
+
+div.column67 {
+    width: 66.67%;
+}
+
+div.column33 {
+    width: 33.33%;
+}
+
+/* Remember to use the display property
+width and height style properties
+floated elements and cleared elements
+container element for container collapse
+margin and padding space and min/max widths
+an example of relative or absolute positioning. */
