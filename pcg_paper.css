@@ -21,12 +21,12 @@ body {
     width: 95%;
     min-width: 640px;
     max-width: 960px;
-    background-color: white;
+    background-color: rgb(255, 225, 168);
 }
 
 /* Ad-lib Styles */
 html {
-    background-color: rgb(138, 43, 226);
+    background-color: rgb(168, 106, 226);
 }
 
 img {
@@ -52,14 +52,23 @@ nav.nav ul li {
     float: left;
 }
 
-nav div.row {
+body div.row {
     clear: both;
+}
+
+div.row {
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 div.row::after {
     clear: both;
     content: "";
     display: table;
+}
+
+dd {
+    color: 
 }
 
 div[class^="column"] {
