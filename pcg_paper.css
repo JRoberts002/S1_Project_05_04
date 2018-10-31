@@ -21,35 +21,84 @@ body {
     width: 95%;
     min-width: 640px;
     max-width: 960px;
-    background-color: rgb(255, 225, 168);
+    background-color: rgb(233, 182, 115);
 }
 
 /* Ad-lib Styles */
 html {
-    background-color: rgb(168, 106, 226);
+    background-color: rgb(249, 184, 255);
 }
 
 img {
     width: 100%;
+    display: block;
 }
 
 nav {
     width: 100%;
 }
 
+body>header>nav.nav li {
+    width: 12.5%;
+}
+
 nav.nav a {
     display: block;
     text-align: center;
-    width: 10%;
+    line-height: 2em;
+    background-color:
+}
+
+nav.nav a:link,
+nav.nav a:visited {
+    color: rgb(255, 225, 168);
+}
+
+nav.nav a:hover,
+nav.nav a:active {
+    background-color: rgb(143, 87, 48);
 }
 
 nav ul {
     list-style: none;
 }
 
-nav.nav ul li {
+nav.nav>ul>li {
     display: block;
     float: left;
+}
+
+p {
+    margin: 1em;
+}
+
+h2 {
+    padding: 0.4em 1em;
+    background-color: rgb(143, 87, 48);
+    font-size: 1.5em;
+}
+
+
+aside {
+    background-color: rgb(143, 87, 48);
+    padding-bottom: 2em;
+    margin-left: 0.9em;
+}
+
+aside>h2 {
+    text-align: center;
+    background-color: rgb(109, 49, 5);
+    color: rgb(255, 255, 255);
+}
+
+dl>dt {
+    margin: 1em;
+    color: rgb(233, 182, 115)
+}
+
+dl>dd {
+    margin: 0 1em;
+    color: rgb(242, 103, 255)
 }
 
 body div.row {
@@ -57,8 +106,7 @@ body div.row {
 }
 
 div.row {
-    margin-left: 10px;
-    margin-right: 10px;
+    clear: both;
 }
 
 div.row::after {
@@ -67,21 +115,27 @@ div.row::after {
     display: table;
 }
 
-dd {
-    color: 
-}
-
 div[class^="column"] {
     float: left;
 }
 
 /* These set the widths of divs with a class of column67 and column33. */
 div.column67 {
-    width: 66.67%;
+    margin-left: 10px;
+    width: 65%;
+    background-color: rgb(242, 103, 255);
 }
 
 div.column33 {
-    width: 33.33%;
+    width: 33%;
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0em;
+    font-size: 0.9em;
+    background-color: rgb(109, 49, 5);
+    color: rgb(255, 225, 168)
 }
 
 /* Remember to use the display property
