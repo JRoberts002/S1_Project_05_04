@@ -21,12 +21,12 @@ body {
     width: 95%;
     min-width: 640px;
     max-width: 960px;
-    background-color: rgb(233, 182, 115);
+    background-color: rgb(165, 121, 55);
 }
 
 /* Ad-lib Styles */
 html {
-    background-color: rgb(249, 184, 255);
+    background-color: rgb(173, 173, 173);
 }
 
 img {
@@ -46,17 +46,17 @@ nav.nav a {
     display: block;
     text-align: center;
     line-height: 2em;
-    background-color: blue;
+    background-color: rgb(7, 196, 0);
 }
 
 nav.nav a:link,
 nav.nav a:visited {
-    color: rgb(255, 225, 168);
+    color: rgb(109, 49, 5);
 }
 
 nav.nav a:hover,
 nav.nav a:active {
-    background-color: rgb(143, 87, 48);
+    background-color: rgb(158, 158, 158);
 }
 
 nav ul {
@@ -74,39 +74,42 @@ p {
 
 h2 {
     padding: 0.4em 1em;
-    background-color: rgb(143, 87, 48);
+    background-color: rgb(3, 99, 0);
     font-size: 1.5em;
+    color: white;
 }
 
 
 aside {
-    background-color: rgb(143, 87, 48);
+    background-color: rgb(153, 153, 153);
     padding-bottom: 2em;
     margin-left: 0.9em;
 }
 
 aside>h2 {
     text-align: center;
-    background-color: rgb(109, 49, 5);
-    color: rgb(255, 255, 255);
+    background-color: rgb(136, 136, 136);
+    color: white;
 }
 
 dl>dt {
     margin: 1em;
-    color: rgb(233, 182, 115)
+    color: rgb(109, 49, 5);
 }
 
 dl>dd {
     margin: 0 1em;
-    color: rgb(242, 103, 255)
+    color: rgb(3, 99, 0);
 }
 
 body div.row {
     clear: both;
 }
 
-div.row {
-    clear: both;
+body div.row div.column67,
+body div.row div.column33 {
+    margin-top: 0.6em;
+    margin-bottom: 0.6em;
 }
 
 div.row::after {
@@ -123,7 +126,7 @@ div[class^="column"] {
 div.column67 {
     margin-left: 10px;
     width: 65%;
-    background-color: rgb(242, 103, 255);
+    background-color: rgb(70, 190, 66);
 }
 
 div.column33 {
@@ -132,10 +135,10 @@ div.column33 {
 
 footer {
     text-align: center;
-    padding: 1em 0em;
-    font-size: 0.9em;
-    background-color: rgb(109, 49, 5);
-    color: rgb(255, 225, 168)
+    padding: 1.2em 0em;
+    font-size: 1em;
+    background-color: rgb(105, 105, 105);
+    color: rgb(255, 255, 255);
 }
 
 /* Remember to use the display property
