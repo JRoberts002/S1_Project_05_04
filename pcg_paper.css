@@ -46,7 +46,7 @@ nav.nav a {
     display: block;
     text-align: center;
     line-height: 2em;
-    background-color:
+    background-color: blue;
 }
 
 nav.nav a:link,
